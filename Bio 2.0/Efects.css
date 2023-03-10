@@ -1,0 +1,69 @@
+span.h1{
+    font-family: 'Rampart One', cursive;
+    display: flex;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 15ch;
+    position: fixed;
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    margin: 250px;
+    left: 13%;
+    bottom: 25%;
+    text-align: center;
+    font-size: 70px;
+}
+
+span.h2{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 47ch;
+    position: fixed;
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 250px;
+    left: 16%;
+    top: 18%;
+    text-align: center;
+}
+
+span.h3{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    position: fixed;
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 250px;
+    left: 29%;
+    top: 30%;
+    text-align: center;
+    
+}
+
+span.h4{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 3ch;
+    position: fixed;
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 250px;
+    left: 32%;
+    top: 40%;
+    text-align: center;
+    
+}

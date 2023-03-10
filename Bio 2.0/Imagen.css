@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+html{
+    margin: 0;
+    font-family: 'Fredoka One', cursive;
+}
+
+.titulo{
+   
+   align-items: center;
+   justify-content: center;
+    display: flex;
+    margin-top: 150px;
+
+}
+
+body{
+    background-image: url(photo-1604517087228-4c456fa2b4c6.png);  
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    margin-top: 55px;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+    
+}
+
+.imagen {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.card{
+    background-color: rgb(121, 121, 121) ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+    border-radius: 15px;
+    margin: 50px;
+    opacity:0.9;
+    border-right: 500px;
+    
+}
+
+.card h1{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px;    
+}

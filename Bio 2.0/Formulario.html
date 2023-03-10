@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Blog | Home 🏡</title>
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <link rel="stylesheet" href="Formulario.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet"
+     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" class="logo"><i class="ri-emotion-happy-line"></i><span></span></a>
+
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="Bio.html">Biografía</a></li>
+            <li><a href="Gustos.html">Gustos</a></li>
+            <li><a href="Music.html">Música</a></li>
+            <li><a href="Imagen.html">Imágenes</a></li>
+            <li><a href="Listas.html">Listas</a></li>
+            <li><a href="Parents.html">Parientes</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>
+        </ul>
+        <div class="main">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <script type="text/javascript" src="script.js"></script>
+
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+    <div class="jumbotron"></div>
+    <h2>¿Desea mas información?</h2>
+    <p>Llena este formulario para poder ayudarte mejor.
+        <br>
+    </center>
+
+    <form action=" mailto:21325050510596@cbtis051.edu.mx" method="POST"> 
+
+        <label for="fnombre">Nombre: </label><br><br>
+        <input type="text" id="fnombre" name="fnombre" size="60" maxlength="80" placeholder="Nombre / Apellido Materno / Apellido Materno" autofocus ><br>
+        <br>
+        <label for="fpassword"> Contraseña: </label><br><br>
+        <input type="password" id="password" name="fpassword"><br>
+        <br>
+        <label for="fcorreo">Correo: </label><br><br>
+        <input type="email" id="fcorreo" name="fcorreo" placeholder="usuario@correo.com" autofocus><br>
+        <br>
+
+        <label for="fnacimiento"> Fecha de Nacimiento: </label>
+        <input type="datetime-local" name="fnacimiento" id="fnacimiento" min="1900-01-01"><br><br>
+
+        <label for="fcabello"> Color de cabello: </label><br>
+        <input type="color" id="fcabello" name="fcabello"><br><br>
+
+        <label for="ffoto"> Elige una foto de perfil: </label>
+        <input type="file" id="ffoto" name="ffoto" ><br>
+        <br>
+        <br>
+
+
+        <label for="fpromedio"> Promedio escolar: </label>
+        <input type="number" id="fpromedio" min="1" max="10" step="0.1"><br><br>
+
+
+        <label for="fgusto">¿Grado de satisfacción con tu escuela?</label>
+        <input type="range" id="fgusto" name="fgusto"><br><br>
+
+        <label for="ftelefono">Número telefónico: </label>
+        <input type="tel" id="ftelefono" name="ftelefono" pattern="+[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+        <label for="fgenero">Género: </label><br><br>
+        <input type="radio" id="css" name="genero" value="Masculino">
+        <label for="Masculino"> Masculino </label><br>
+        <input type="radio" id="javascript" name="genero" value="Femenino">
+        <label for="Femenino"> Femenino </label><br>
+        <br>
+        ¿Qué es lo que más te gusta?<br>
+
+        <input type="checkbox" id="Preferencial" name="Preferencial" value="Sushi">
+        <label for="Preferencial"> Me gusta el Sushi </label><br>
+        <input type="checkbox" id="Preferencia2" name="Preferencia2" value="Pizza">
+        <label for="Preferencial"> Me gusta la Pizza </label><br>
+        <input type="checkbox" id="Preferencia3" name="Preferencia3" value="Hamburguesa">
+        <label for="Preferencial"> Me gusta la Hamburguesa </label><br><br>
+
+        <label for="">Seleccione su estado de nacimiento:</label><br><br>
+        <select name="Estado" id="Estado">
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="Baja California">Baja California</option>
+            <option value="Baja California Sur">Baja California Sur</option>
+            <option value="Campeche">Campeche</option>
+            <option value="Chiapas">Chiapas</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Coahuila">Coahuila</option>
+            <option value="Colima">Colima</option>
+            <option value="Distrito Federal">Distrito Federal</option>
+            <option value="Durango">Durango</option>
+            <option value="Guanajuato">Guanajuato</option>
+            <option value="Guerrero">Guerrero</option>
+            <option value="Hidalgo">Hidalgo</option>
+            <option value="Jalisco">Jalisco</option>
+            <option value="México">México</option>
+            <option value="Michoacán">Michoacán</option>
+            <option value="Morelos">Morelos</option>
+            <option value="Nayarit">Nayarit</option>
+            <option value="Nuevo León">Nuevo León</option>
+            <option value="Oaxaca">Oaxaca</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Querétaro">Querétaro</option>
+            <option value="Quintana Roo">Quintana Roo</option>
+            <option value="San Luis Potosí">San Luis Potosí</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Sonora">Sonora</option>
+            <option value="Tabasco">Tabasco</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Tlaxcala">Tlaxcala</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Yucatán">Yucatán</option>
+            <option value="Zacatecas">Zacatecas</option>
+        </select>
+        <br><br>
+        <label for="Ciudad">Escribe o elige tu ciudad: </label><br>
+        <input list="Ciudad">
+        <datalist id="Ciudad">
+            <option value="Los Mochis">Los Mochis</option>
+            <option value="Culiacán">Culiacán</option>
+            <option value="Mazatlán">Mazatlán</option>
+            <option value="Concordia">Concordia</option>
+            <option value="Escuinapa">Escuinapa</option>
+        </datalist>
+        <br><br>
+            Comentarios <br>
+
+            <textarea name="Comentarios" id="" cols="40" rows="5"></textarea>
+            <br><br>
+
+            <input type="submit" value="ENTRAR">
+            <input type="image" src="Message_(Send).png" alt="Enviar" width="60px" height="60px">
+    </form>
+    </p>
+
+
+</body>
+
+</html>
+
+</body>
+</html>

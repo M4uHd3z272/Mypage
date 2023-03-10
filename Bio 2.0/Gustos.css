@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+
+html{
+    font-family: 'Dosis', sans-serif;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    
+}
+
+.Hamburguer{
+    width: 500px;
+    height: 450px;
+    margin-left: 400px;
+}
+
+
+.Balon{
+    margin-left: 250px;
+}
+
+.ojo{
+    width: 500px;
+    height: 450px;
+    margin-left: 400px;
+}
+
+.Genero{
+    width: 650px;
+    height: 450px;
+    margin-left: 320px;
+    margin-bottom: 50px;
+}
+.Title2{
+    display: flex;
+    justify-content: center;
+    margin-top: 110px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 40px;
+    
+}
+
+

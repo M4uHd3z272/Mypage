@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Shantell+Sans&display=swap');
+
+html{
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shantell Sans', cursive;
+    margin-top: 90px;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(#00C9FF, #004DFF);
+}
+
+.container{
+    border: solid 1px rgba(255, 0, 0, 0.2);
+}
+
+table{
+    color: white;
+    font-size: 16px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+thead{
+    background: rgba(124, 114, 121, 0.4);
+}
+
+th{
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td{
+    padding: 15px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+}
+
+tbody tr{
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    background: rgba(124, 114, 121, 0.4);
+}
